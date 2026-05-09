@@ -1,0 +1,16 @@
+Title: Login flow on Rahul Shetty Academy
+URL: https://rahulshettyacademy.com/client
+
+As a registered customer
+I want to log in with my email and password
+So that I can access my dashboard
+
+Steps:
+- Open the login page
+- Type the email "test_user@example.com" into the email field (id is userEmail)
+- Type the password "Pass1234!" into the password field (id is userPassword)
+- Click the Login button (its value attribute is Login)
+
+Expected:
+- The URL changes to include /dashboard
+- The page heading "Products" is visible

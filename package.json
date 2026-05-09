@@ -1,0 +1,17 @@
+{
+  "name": "playwright-ai-test-generator",
+  "version": "1.0.0",
+  "description": "Turn plain-English user stories into Playwright tests using GitHub Models (the LLMs that power GitHub Copilot). Beginner-friendly QA AI testing project.",
+  "main": "generate.js",
+  "scripts": {
+    "generate": "node generate.js",
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.45.0"
+  },
+  "dependencies": {
+    "openai": "^4.55.0",
+    "dotenv": "^16.4.5"
+  }
+}

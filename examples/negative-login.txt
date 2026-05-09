@@ -1,0 +1,18 @@
+Title: Login error messages
+URL: https://rahulshettyacademy.com/client
+
+As a security-conscious user
+I want clear errors when I enter wrong credentials
+So that I know my login failed and why
+
+Test 1 — Wrong password:
+- Open the login page
+- Enter a valid-looking email "valid@example.com"
+- Enter the wrong password "wrong-password-123"
+- Click Login (value attribute is Login)
+- Expected: an error message containing "Incorrect email or password" is shown
+
+Test 2 — Empty fields:
+- Open the login page
+- Click Login without typing anything
+- Expected: the Login button stays disabled, OR an error message appears

@@ -1,0 +1,20 @@
+Title: Product search and add to cart
+URL: https://rahulshettyacademy.com/client
+
+As a logged-in customer
+I want to find a specific product on the dashboard
+So that I can add it to my cart
+
+Assume the user is already logged in via UI:
+- Email is in env var USER_EMAIL
+- Password is in env var USER_PASSWORD
+
+Steps:
+- Wait for the product cards (.card-body) to be visible
+- Find the product whose title in `b` is "ZARA COAT 3"
+- Click its "Add To Cart" button
+- Click the cart icon (routerlink contains "cart")
+
+Expected:
+- The cart shows "ZARA COAT 3" as one of the items
+- A Checkout button is visible
